@@ -99,6 +99,7 @@ public class PlayaCargaTest {
         playaCarga.asignarCarga(50);
         playaCarga.asignarCarga(100);
         Camion camion = new Camion(120);
+        // to do
         camion.cargar(playaCarga.retirarCarga());
         camion.cargar(playaCarga.retirarCarga());
         Assertions.assertThat(playaCarga.hayCargas()).isTrue();
